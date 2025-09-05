@@ -1,9 +1,9 @@
-modules: []
-  # - name: vm_instance
-  #   params:
-  #     name: my-single-vm
-  #     machine_type: e2-micro
-  #     zone: us-central1-a
-  #     disk_size_gb: 10
-  #     disk_type: pd-standard
-  #     network: default
+modules:
+  - name: vm_instance
+    params:
+      name: my-single-vm
+      machine_type: e2-micro
+      zone: us-central1-a
+      disk_size_gb: 40
+      disk_type: pd-standard
+      network: default
