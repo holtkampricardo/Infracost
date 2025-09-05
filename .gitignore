@@ -1,0 +1,46 @@
+# --- Terraform ---
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+*.plan
+*.binary
+
+# --- Python / venv ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+.env/
+.venv/
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Keys / Secrets ---
+*.pem
+*.key
+*.crt
+*.csr
+*.json
+*.p12
+*.bak
+*.backup
+*.secret
+*.credentials
